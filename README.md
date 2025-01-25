@@ -34,11 +34,21 @@ Navigate to the main directory and build ChampSim using the following command:
 ```
 
 ### 4. Run ChampSim
-Execute the following command to run ChampSim:
+Single-core simulation: Run simulation with `run_champsim.sh` script.
 
-```bash
-./run_champsim.sh
 ```
+Usage: ./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION]
+
+$ ./run_champsim.sh bimodal-no-no-no-no-lru-1core 1 10 403.gcc-16B.champsimtrace.xz
+
+where,
+${BINARY}: ChampSim binary compiled by "build_champsim.sh" (bimodal-no-no-lru-1core)
+${N_WARM}: number of instructions for warmup (1 million)
+${N_SIM}:  number of instructinos for detailed simulation (10 million)
+${TRACE}: trace name (400.perlbench-41B.champsimtrace.xz)
+${OPTION}: extra option for "-low_bandwidth" (src/main.cc)
+```
+Simulation results will be stored under "results_${N_SIM}M" as a form of "TRACE-BINARY-OPTION.txt".<br>
 
 ---
 
