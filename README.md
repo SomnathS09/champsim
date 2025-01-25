@@ -20,9 +20,9 @@ git clone https://github.com/SomnathS09/champsim.git
 ```
 
 ### 2. Download Traces
-Download the following trace: `403.gcc-16B.champsimtrace.xz`.
+Download the following trace: [`403.gcc-16B.champsimtrace.xz`](https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/403.gcc-16B.champsimtrace.xz).
 
-You can find the trace under the [SPEC traces](https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/).
+Alternatively, browse other traces on the [SPEC traces page](https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/).
 
 After downloading, create a folder named `dp3_traces` and move the downloaded trace archieve there.
 
@@ -45,7 +45,7 @@ where,
 ${BINARY}: ChampSim binary compiled by "build_champsim.sh" (bimodal-no-no-lru-1core)
 ${N_WARM}: number of instructions for warmup (1 million)
 ${N_SIM}:  number of instructinos for detailed simulation (10 million)
-${TRACE}: trace name (400.perlbench-41B.champsimtrace.xz)
+${TRACE}: trace name (403.gcc-16B.champsimtrace.xz)
 ${OPTION}: extra option for "-low_bandwidth" (src/main.cc)
 ```
 Simulation results will be stored under "results_${N_SIM}M" as a form of "TRACE-BINARY-OPTION.txt".<br>
