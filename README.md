@@ -31,7 +31,9 @@ After downloading, create a folder named `dpc3_traces` and move the downloaded t
 Navigate to the main directory and build ChampSim using the following command:
 
 ```bash
-./build_champsim.sh bimodal no no no no 1 lru
+$ ./build_champsim.sh bimodal no no no no lru 1
+
+$ ./build_champsim.sh ${BRANCH} ${L1I_PREFETCHER} ${L1D_PREFETCHER} ${L2C_PREFETCHER} ${LLC_PREFETCHER} ${LLC_REPLACEMENT} ${NUM_CORE}
 ```
 
 ### 4. Run ChampSim
