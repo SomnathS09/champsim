@@ -25,6 +25,7 @@ Download the following trace: [`403.gcc-16B.champsimtrace.xz`](https://dpc3.comp
 Alternatively, browse other traces on the [SPEC traces page](https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/).
 
 After downloading, create a folder named `dpc3_traces` and move the downloaded trace archieve there.
+(Or perform in single step using ./scripts/manage_traces.sh)
 
 ### 3. Build ChampSim
 Navigate to the main directory and build ChampSim using the following command:
