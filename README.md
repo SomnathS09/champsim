@@ -16,7 +16,7 @@ sudo apt-get install build-essential
 Clone this repository or download and extract the source code:
 
 ```bash
-git clone https://github.com/ChampSim/ChampSim.git
+git clone https://github.com/SomnathS09/champsim.git
 ```
 
 ### 2. Download Traces
@@ -24,7 +24,7 @@ Download the following trace: `403.gcc-16B.champsimtrace.xz`.
 
 You can find the trace under the [SPEC traces](https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/).
 
-After downloading, create a folder named `dp3_traces` and move the trace file there.
+After downloading, create a folder named `dp3_traces` and move the downloaded trace archieve there.
 
 ### 3. Build ChampSim
 Navigate to the main directory and build ChampSim using the following command:
@@ -43,4 +43,5 @@ Execute the following command to run ChampSim:
 ---
 
 ## For More Information
-Refer to the original [README file](/README-original.md).
+- Refer to this [Youtube video](https://www.youtube.com/watch?v=-ud3bqHaBCk&authuser=0)
+- Refer to the original [README file](/README-original.md).
